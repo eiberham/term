@@ -7,14 +7,12 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "hugo",
-	Short: "Hugo is a very fast static site generator",
-	Long: `A Fast and Flexible Static Site Generator built with
-				  love by spf13 and friends in Go.
-				  Complete documentation is available at http://hugo.spf13.com`,
+	Use:   "term",
+	Short: "Term is a tool that lets you find occurences of words in files within your project",
+	Long: `The advantages of this tool is that it was designed leveraging the goods of golang's
+	concurrency model to perform at good speed`,
 	Run: func(cmd *cobra.Command, args []string) {
 		// Do Stuff Here
-		fmt.Println("command here :D")
 	},
 }
 
